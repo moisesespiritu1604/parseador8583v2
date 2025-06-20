@@ -76,7 +76,7 @@ const formato: Field[] = [
   { alias: "additionalAmounts", isoBit: 54, format: "AN", varSize: 3, maxSize: 120 },
   { alias: "emvData", isoBit: 55, format: "ANS", varSize: 3, maxSize: 512 },
   { alias: "adviceReasonCode", isoBit: 60, format: "AN", varSize: 2, maxSize: 60 },
-  { alias: "posAditionalInfo", isoBit: 61, format: "ANS", varSize: 2, maxSize: 26 },
+  { alias: "posAditionalInfo", isoBit: 61, format: "ANS", varSize: 3, maxSize: 26 },
   { alias: "networkData", isoBit: 63, format: "ANS", varSize: 3, maxSize: 999 },
   { alias: "netInfoCode", isoBit: 70, format: "N", varSize: 0, maxSize: 3 },
   { alias: "originalData", isoBit: 90, format: "N", varSize: 0, maxSize: 42 },
